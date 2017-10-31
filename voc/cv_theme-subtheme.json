@@ -6,14 +6,14 @@
     "subthemes": [
       {
         "subtheme_daf_code": "policy",
-        "subtheme_daf_ita": "Policy Agricola e Alimentare"
+        "subtheme_daf_ita": "Policy Agricola e Alimentare",
         "subthemes_ita": [
           "5606 politica agricola"
         ]
       },
       {
         "subtheme_daf_code": "produzione_agricola",
-        "subtheme_daf_ita": "Produzione Agricola"
+        "subtheme_daf_ita": "Produzione Agricola",
         "subthemes_ita": [
           "5611 produzione e strutture agricole",
           "5621 coltivazione di terreni agricoli",
@@ -25,11 +25,12 @@
           "6016 prodotto agricolo trasformato",
           "6006 prodotto vegetale",
           "6021 bevande e zucchero",
-          "5636 foresta",
+          "5636 foresta"
         ]
       },
       {
         "subtheme_daf_code": "produzione_animale",
+        "subtheme_daf_ita": "Produzione Animale",
         "subthemes_ita": [
           "5641 pesca",
           "6011 prodotto animale"
@@ -44,6 +45,7 @@
     "subthemes": [
       {
         "subtheme_daf_code": "policy",
+        "subtheme_daf_ita": "Policy",
         "subthemes_ita": [
           "6606 politica energetica"
         ]
@@ -67,6 +69,7 @@
     "subthemes": [
       {
         "subtheme_daf_code": "policy",
+        "subtheme_daf_ita": "Policy",
         "subthemes_ita": [
           "7231 geografia economica",
           "7236 geografia politica"
@@ -76,7 +79,7 @@
         "subtheme_daf_code": "europa",
         "subthemes_ita": [
           "7206 Europa",
-          "7211 regioni degli Stati membri dell’Unione europea",
+          "7211 regioni degli Stati membri dell’Unione europea"
         ]
       },
       {
@@ -90,12 +93,13 @@
     ] 
   },
   {
-    "theme_ita":"Trasporti"
+    "theme_ita":"Trasporti",
     "theme_daf_ita": "Trasporti",
     "theme_daf_code": "Trasporti",
     "subthemes": [
       {
         "subtheme_daf_code": "policy",
+        "subtheme_daf_ita": "Policy",
         "subthemes_ita": [
           "4806 politica ei trasporti",
           "4811 organizzazione dei trasporti"
@@ -103,18 +107,21 @@
       },
       {
         "subtheme_daf_code": "terrestre",
+        "subtheme_daf_ita": "Trasporti Terrestri",
         "subthemes_ita": [
           "4816 trasporti terrestri"
         ]
       },
       {
         "subtheme_daf_code": "aereo",
+        "subtheme_daf_ita_": "Trasporti Aerei",
         "subthemes_ita": [
           "4826 trasporti aerei e spaziali"
         ]
       },
       {
         "subtheme_daf_code": "marittimo",
+        "subtheme_daf_ita": "Trasporto Marittimo",
         "subthemes_ita": [
           "4821 trasporti marittimi e fluviali"
         ]
@@ -123,12 +130,13 @@
   },
 
   {
-    "theme_ita":"Economia e Finanza"
+    "theme_ita":"Economia e Finanza",
     "theme_daf_ita": "Economia e Finanza",
     "theme_daf_code": "economia",
     "subthemes": [
       {
         "subtheme_daf_code": "policy",
+        "subtheme_daf_ita": "Policy",
         "subthemes_ita": [
           "1606 politica economica",
           "1611 crescita economica",
@@ -147,7 +155,8 @@
         ]
       },
       {
-        "subtheme_daf_code": "finanza_pubblica",
+        "subtheme_daf_code": "finanza_publica",
+        "subtheme_daf_ita": "Finanza Pubblica",
         "subthemes_ita": [
           "1626 contabilità nazionale",
           "2436 finanze pubbliche e politica di bilancio",
@@ -156,23 +165,26 @@
       },
       {
         "subtheme_daf_code": "imprese_contabilita",
+        "subtheme_daf_ita": "Imprese e Contabilita",
         "subthemes_ita": [
           "2441 bilancio",
-          "4006 organizzazione aziendale"
-          "4011 tipo d’impresa"
-          "4016 forma giuridica di societa"
-          "4021 gestione amministrativa"
+          "4006 organizzazione aziendale",
+          "4011 tipo d’impresa",
+          "4016 forma giuridica di societa",
+          "4021 gestione amministrativa",
           "4026 gestione contabile"
         ]
       },
       {
         "subtheme_daf_code": "fiscalita",
+        "subtheme_daf_ita": "Fiscalita",
         "subthemes_ita": [
           "2446 fiscalita"
         ]
       },
       {
         "subtheme_daf_code": "finanza",
+        "subtheme_daf_ita": "Finanza",
         "subthemes_ita": [
           "2416 istituti finanziari e di credito",
           "2421 libera circolazione dei capitali",
@@ -182,6 +194,7 @@
       },
       {
         "subtheme_daf_code": "macroeconomia",
+        "subtheme_daf_ita": "Macroeconomia",
         "subthemes_ita": [
           "1621 struttura economica",
           "1631 analisi economica",
@@ -200,6 +213,7 @@
         "subtheme_daf_ita": "Immobiliare",
         "subthemes_ita":[]
       }
+    ]
   },
 
   {
@@ -311,7 +325,7 @@
       },
       {
         "subtheme_daf_code": "misurazioni",
-        "subtheme_daf_ita": "misurazioni",
+        "subtheme_daf_ita": "Misurazioni",
         "subthemes_ita": [
           "5211 ambiente naturale",
           "5216 degrado ambientale"
@@ -354,7 +368,7 @@
       },
       {
         "subtheme_daf_code": "turismo",
-        "subtheme_daf_ita": "turismo",
+        "subtheme_daf_ita": "Turismo",
         "subthemes_ita": []
       }
     ]
