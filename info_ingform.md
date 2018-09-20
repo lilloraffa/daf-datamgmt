@@ -8,6 +8,9 @@
   - Organizations --> linked id: dcatapit.owner_org
   - ingestion pipelines
 
+Voc controllati da continuare:
+- fieldtype
+
 
 ## Notes
 
