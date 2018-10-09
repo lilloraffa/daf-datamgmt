@@ -1,0 +1,47 @@
+{
+  "name": "field_type",
+  "domain": "catalog.dataschema.flatschema.metadata.field_type",
+  "desc": "It specifies if the field is a dimension ('dim'), a metric (numeric attribute, 'metric') or a descriptive attribute ('desc').",
+  "data": [
+    {
+      "uid": "dim",
+      "name": {
+        "ita": "Dimensione",
+        "eng": "Dimension",
+        "default": "Dimension"
+      },
+      "desc": {
+        "ita": "Variabile di tipo 'dimensione.'",
+        "eng": "Field of type 'dimension'.",
+        "default": "Field of type 'dimension'."
+      }
+    },
+    {
+      "uid": "metric",
+      "name": {
+        "ita": "Metrica",
+        "eng": "Metric",
+        "default": "Metric"
+      },
+      "desc": {
+        "ita": "Variabile numerica di tipo 'metrica'.",
+        "eng": "Numeric field of type 'metric'.",
+        "default": "Numeric field of type 'metric'."
+      }
+    },
+    {
+      "uid": "desc",
+      "name": {
+        "ita": "Descrittivo",
+        "eng": "Descriptive",
+        "default": "Descriptive"
+      },
+      "desc": {
+        "ita": "Variabile testuale di tipo 'descrittivo'.",
+        "eng": "Textual field of type 'descriptive'.",
+        "default": "Textual field of type 'descriptive'."
+      }
+    }
+  ]
+}
+
