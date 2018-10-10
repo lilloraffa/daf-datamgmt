@@ -1,0 +1,47 @@
+{
+  "name": "entity_extr",
+  "domain": "catalog.dataschema.flatschema.metadata.field_profile.entity_extr",
+  "desc": "Lista delle procedure di entity extraction da applicare al campo",
+  "data": [
+    {
+      "uid": "date",
+      "name": {
+        "ita": "Data",
+        "eng": "Date",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Formato standard di tipo 'Data'. Il parametro associato dovrà contenere il formato data ingerito che verrà convertito in quello DAF.",
+        "eng": "Standard format of type 'Date'. The associated parameter must contain the format of the ingested date that will be translated into the DAF standard.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "address",
+      "name": {
+        "ita": "Indirizzo",
+        "eng": "Address",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Formato standard di tipo 'Indirizzo'. Il parametro associato dovrà contenere il formato indirizzo ingerito, usando le seguenti convenzioni: `t` per il tipo (i.e. via, piazza), `r` per nome via/piazza, `n` per numero civico, `z` per codice postale, `p` per provincia, `c` per regione, `s` per stato.",
+        "eng": "Standard format of type 'Address'. The associated parameter may contain the format of the ingested address, using the following convention: `t` for address type, `r` for the road part, `n` for the number, `z` for the zip code, `p` for provincem, `c` for state/county, `s` for country. ",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "url",
+      "name": {
+        "ita": "Indirizzo Web (url)",
+        "eng": "Web Address (url)",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Formato standard di tipo 'Indirizzo web (url).'",
+        "eng": "Standard format of type 'Web Address (url).'",
+        "default": "eng"
+      }
+    }
+  ]
+}
+

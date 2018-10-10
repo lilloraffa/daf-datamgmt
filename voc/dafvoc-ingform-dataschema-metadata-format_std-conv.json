@@ -1,0 +1,34 @@
+{
+  "name": "conv",
+  "domain": "catalog.dataschema.flatschema.metadata.format_std.conv",
+  "desc": "Convention to be applied to the ingested data contained in the field of interest. It normally consists in substituting text, apply the correct value for null and invalid, and similar.",
+  "data": [
+    {
+      "uid": "null",
+      "name": {
+        "ita": "NULL",
+        "eng": "NULL",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Convenzione per la gestione dei valori di significato 'NULL'. L'applicazione della convenzione consiste nel sostituire con il valore NULL del DAF i valori passati come parametri.",
+        "eng": "Convention to manage values with NULL meaning. It works by substituting the values contained in parameters with the NULL convention of DAF.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "normvoc_default",
+      "name": {
+        "ita": "Normalizzazione con vocabolario di base.",
+        "eng": "Normalization using default vocabulary.",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Questa convenzione attiva la procedura di normalizzazione che utilizza il vocabolario di default per sostituzione di termini in esso contenuti.",
+        "eng": "This convention activates normalization procedure that uses default vocabulary to substitute terms contained in it.",
+        "default": "eng"
+      }
+    }
+  ]
+}
+
