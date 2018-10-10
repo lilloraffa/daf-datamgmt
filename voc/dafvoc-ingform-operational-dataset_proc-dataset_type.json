@@ -1,0 +1,34 @@
+{
+  "name": "dataset_type",
+  "domain": "catalog.operational.dataset_proc.dataset_type",
+  "desc": "It tells whether the dataset is at rest ('batch') or realtime stream ('stream').",
+  "data": [
+    {
+      "uid": "batch",
+      "name": {
+        "ita": "Batch",
+        "eng": "Batch",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Una ingestion di tipo batch avviene in modalità discreta e periodica nel tempo.",
+        "eng": "A batch ingestion works in descrete and periodical time.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "stream",
+      "name": {
+        "ita": "Stream",
+        "eng": "Stream",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Ingestion di tipo 'streaming' o realtime (near realtime) accade nel continuo.",
+        "eng": "Streaming ingestion or realtime (near real time) happens in continuum.",
+        "default": "eng"
+      }
+    }
+  ]
+}
+

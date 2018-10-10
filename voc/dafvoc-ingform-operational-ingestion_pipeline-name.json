@@ -1,0 +1,21 @@
+{
+  "name": "ingestion_pipeline",
+  "domain": "catalog.operational.ingestion_pipeline",
+  "desc": "Ordered list of ingestion pipelines to be applied to the dataset.",
+  "data": [
+    {
+      "uid": "ing-std",
+      "name": {
+        "ita": "DAF Ingestion Pipeline default",
+        "eng": "DAF default Ingestion Pipeline",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Pipeline di ingestion che applica normalizzazioni e standardizzazioni di default del DAF.",
+        "eng": "Default ingestion pipeline performing normalization and standardization procedure, applying DAF base conventions.",
+        "default": "eng"
+      }
+    }
+  ]
+}
+

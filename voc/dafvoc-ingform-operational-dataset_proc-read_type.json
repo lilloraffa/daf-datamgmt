@@ -1,0 +1,34 @@
+{
+  "name": "read_type",
+  "domain": "catalog.operational.dataset_proc.read_type",
+  "desc": "It tells whether the dataset is an append of snapshot ('last_update') or a time series ('time_series') and tells the program how to return the data.",
+  "data": [
+    {
+      "uid": "last_update",
+      "name": {
+        "ita": "Ultimo aggiornamento",
+        "eng": "Last Update",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "L'aggiornamento del dataset avviene attraverso l'invio di tutti i dati che corrispondono all'ultima versione dell'intero dataset",
+        "eng": "The dataset update works by sending the entire dataset corresponding to the last version.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "time_series",
+      "name": {
+        "ita": "Time Series",
+        "eng": "Time Series",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Il dataset è composto da tutti i dati inviati negli intervalli di tempo.",
+        "eng": "The dataset is made of all data sent through all updates.",
+        "default": "eng"
+      }
+    }
+  ]
+}
+
