@@ -1,0 +1,34 @@
+{
+  "name": "cat",
+  "domain": "catalog.dataschema.flatschema.metadata.personal.cat",
+  "desc": "Category of personal data contained in the field.",
+  "data": [
+    {
+      "uid": "pii",
+      "name": {
+        "ita": "Dati identificativi",
+        "eng": "Personally identifiable information",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Dati identificativi consentono l'identificazione diretta del soggetto.",
+        "eng": "They allow the direttact identification of the person.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "spec_treat",
+      "name": {
+        "ita": "Dati trattamento speciale",
+        "eng": "Special treatment data",
+        "default": "Metric"
+      },
+      "desc": {
+        "ita": "Dati per i quali GDPR prevede un trattamento speciale ex art. 9. Simili ai vecchi dati sensibili.",
+        "eng": "Data information which GDPR dictates a special treatment ex art. 9.",
+        "default": "Numeric field of type 'metric'."
+      }
+    }
+  ]
+}
+

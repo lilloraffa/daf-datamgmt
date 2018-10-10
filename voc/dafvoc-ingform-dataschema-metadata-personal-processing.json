@@ -1,0 +1,47 @@
+{
+  "name": "processing",
+  "domain": "catalog.dataschema.flatschema.metadata.personal.processing",
+  "desc": "Preprocessing procedure to be applied to mask personal data.",
+  "data": [
+    {
+      "uid": "hashmask",
+      "name": {
+        "ita": "Mascheramento univoco con chiave (Hash)",
+        "eng": "Hash masking with key",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Mascheramento con procedura di hash con chiave. Preserva univocità invormazione.",
+        "eng": "Hash masking with key, preserving uniqueness of information.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "dummymask-lengh",
+      "name": {
+        "ita": "Mascheramento dummy che a lunghezza",
+        "eng": "Dummy masking, length preserving",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Mascheramento di tipo dummy (ripetizione di una lettera, es. 'XXXXX'), preservando il la lunghezza del campo.",
+        "eng": "Dummy masking (e.g. 'XXXX') which preserves field length.",
+        "default": "eng"
+      }
+    },
+    {
+      "uid": "dummymask-fix",
+      "name": {
+        "ita": "Mascheramento dummy a lunghezza fissa",
+        "eng": "Dummy masking, fixed length",
+        "default": "eng"
+      },
+      "desc": {
+        "ita": "Mascheramento di tipo dummy (ripetizione di una lettera, es. 'XXXXX'), di lunghezza prefissata.",
+        "eng": "Dummy masking (e.g. 'XXXX') with prefixed length.",
+        "default": "eng"
+      }
+    }
+  ]
+}
+
